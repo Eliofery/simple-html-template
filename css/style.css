@@ -1,0 +1,129 @@
+/* Переменные */
+:root {
+    --fz-label: 117px;
+    --fz-heading: 78px;
+    --fz-heading-2: 55px;
+    --fz-heading-3: 24px;
+    --fz-heading-4: 18px;
+    --fz-heading-5: 16px;
+
+    --color-black: #000;
+    --color-white: #fff;
+
+    --width-container: 360px;
+    --gutter: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    :root {
+        --width-container: 768px;
+        --gutter: 40px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    :root {
+        --width-container: 1440px;
+    }
+}
+
+/* Базовая разметка */
+@font-face {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("../fonts/roboto/roboto-regular.woff2") format("woff2");
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+body {
+    position: relative;
+
+    min-width: var(--width-container);
+    min-height: 100%;
+
+    color: var(--color-black);
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: var(--fz-heading-5);
+    line-height: 1.5;
+
+    background-color: var(--color-white);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.sr-only {
+    position: absolute;
+
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+
+    border: 0;
+
+    clip: rect(0,0,0,0);
+    -webkit-clip-path: inset(100%);
+    clip-path: inset(100%);
+}
+
+.container {
+    max-width: var(--width-container);
+    margin: 0 auto;
+    padding: 0 var(--gutter);
+}
+
+.notice {
+    margin: 0;
+    padding: 10px;
+
+    color: white;
+    text-align: center;
+
+    background-color: black;
+}
+
+.notice a {
+    color: yellow;
+}
+
+.notice a:hover,
+.notice a:focus {
+    text-decoration: none;
+}
+
+/* Шапка сайта */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
