@@ -4,6 +4,7 @@
   "description": "Описание сайта",
   "lang": "ru",
   "dir": "ltr",
+  "id": "/",
   "start_url": "/",
   "scope": "/",
   "display": "minimal-ui",
@@ -23,7 +24,7 @@
       "sizes": "512x512"
     },
     {
-      "src": "/assets/img/favicons/icon.svg",
+      "src": "/img/favicons/icon.svg",
       "sizes": "any",
       "type": "image/svg",
       "purpose": "maskable"
